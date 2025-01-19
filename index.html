@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qr-code</title>
+    <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: hsl(212, 45%, 89%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container */
+        .container {
+            background-color: hsl(0, 0%, 100%);
+            width: 320px;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* QR Code Box */
+        .qr-container img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Heading */
+        .heading {
+            font-size: 18px;
+            font-weight: 700;
+            color: hsl(218, 44%, 22%);
+            margin-bottom: 15px;
+        }
+
+        /* Description */
+        .description {
+            font-size: 15px;
+            font-weight: 400;
+            color: hsl(220, 15%, 55%);
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="qr-container">
+            <img src="/images/image-qr-code.png" alt="QR Code">
+        </div>
+        <h1 class="heading">Improve your front-end skills by building projects</h1>
+        <p class="description">
+            Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.
+        </p>
+    </div>
+
+</body>
+
+</html>
