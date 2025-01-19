@@ -11,7 +11,7 @@ This is my first project on **Frontend Mentor**, where I built a **QR Code Compo
 ![QR Code Component](./images/SS.png) 
 
 ### **Links**
-- **Live Site**: [Your Live Site URL](#) 
+- **Live Site**: [https://qr-code-orcin-three.vercel.app/](#) 
 - **Frontend Mentor Challenge**: [QR Code Component Challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) 
 
 ---
